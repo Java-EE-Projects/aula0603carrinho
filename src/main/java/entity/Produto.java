@@ -11,8 +11,8 @@ public class Produto {
 	static {
 		produtos = new LinkedHashMap<Integer, Produto>();
 		produtos.put(1, new Produto(1, "P1", 100));
-		produtos.put(1, new Produto(1, "P2", 200));
-		produtos.put(1, new Produto(1, "P3", 300));
+		produtos.put(2, new Produto(1, "P2", 200));
+		produtos.put(3, new Produto(1, "P3", 300));
 		produtos.put(4, new Produto(4, "P4", 400));
 		produtos.put(5, new Produto(1, "P5", 500));
 	}
@@ -20,8 +20,7 @@ public class Produto {
 	private int id;
 	private String nome;
 	private double valor;
-	
-	
+		
 	private Produto(int id, String nome, double valor) {
 		this.id = id;
 		this.nome = nome;
@@ -59,5 +58,5 @@ public class Produto {
 	public static Produto getProdutoById(int id) {
 		return produtos.get(id);
 	}
-
+	
 }
