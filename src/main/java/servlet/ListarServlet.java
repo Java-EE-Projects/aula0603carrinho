@@ -9,7 +9,7 @@ import java.io.IOException;
 
 import entity.Produto;
 
-
+@WebServlet("/Listar")
 public class ListarServlet extends HttpServlet {
 
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 import entity.Carrinho;
 import entity.Produto;
 
-
+@WebServlet("/Adicionar")
 public class AdicionarServlet extends HttpServlet {
 
 

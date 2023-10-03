@@ -13,7 +13,7 @@ import java.util.List;
 import entity.Carrinho;
 import entity.Produto;
 
-
+@WebServlet("/Carrinho")
 public class CarrinhoServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
