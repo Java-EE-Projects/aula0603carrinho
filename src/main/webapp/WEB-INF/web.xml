@@ -19,4 +19,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AdicionarServlet</display-name>
+    <servlet-name>AdicionarServlet</servlet-name>
+    <servlet-class>servlet.AdicionarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdicionarServlet</servlet-name>
+    <url-pattern>/Adicionar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CarrinhoServlet</display-name>
+    <servlet-name>CarrinhoServlet</servlet-name>
+    <servlet-class>servlet.CarrinhoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CarrinhoServlet</servlet-name>
+    <url-pattern>/Carrinho</url-pattern>
+  </servlet-mapping>
 </web-app>
